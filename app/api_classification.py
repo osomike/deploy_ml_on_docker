@@ -44,6 +44,10 @@ class Data(BaseModel):
     promotion_last_5years: float
     sales: str
 
+@app.get('/msg')
+def read_something():
+    return {'msg': "Hello world!"}
+
 @app.post("/predict")
 def predict_api(data: Data):
     
