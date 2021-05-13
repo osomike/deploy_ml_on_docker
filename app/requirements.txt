@@ -1,6 +1,6 @@
 numpy==1.18.1
 pandas==0.25.3
-pydantic==1.4
+pydantic==1.6.2
 uvicorn==0.9.1
 scikit-learn==0.22.1
 xgboost==0.90
